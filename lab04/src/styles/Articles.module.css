@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    background: white;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+    padding: 10px 0;
+    margin: 2px 0;
+}
+
+.position{
+    padding: 0 10px;
+}
+
+.item:hover{
+    color: rgb(29, 97, 192);
+}
+
+.title{
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+    padding: 10px 5px;
+    background: white;
+}
+
+.comment span:last-child{
+    font-style: italic;
+}
